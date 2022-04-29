@@ -16,8 +16,8 @@
     width: 100%;
   }
   .logo{
-    padding: 20px 30px;
-    width: 10rem;
+    padding: 25px 30px;
+    width: 25rem;
   }
   nav ul{
     float: right;
@@ -51,18 +51,16 @@
   #check{
     display: none;
   }
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
+  @media (max-width: 1500px){
     .checkbtn{
       display: block;
+    }
+    .logo{
+      padding: 25px 30px;
+      width: 15rem;
+    }
+    nav{
+      height: 70px;
     }
     ul{
       position: fixed;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import rankerdeo from './Rankerdeo.png'
+import cred from './cred.png'
 
 const Navbar = () => {
     return (
@@ -10,7 +10,7 @@ const Navbar = () => {
                 <label htmlFor="check" className="checkbtn">
                     <i className="fas fa-bars"></i>
                 </label>
-                <img className='logo' src={rankerdeo} alt=""/>
+                <img className='logo' src={cred} alt=""/>
                 <ul>
                     <li><a className="active" href="/">MINT BADGE</a></li>
                     <li><a href="/">TELEGRAM</a></li>
