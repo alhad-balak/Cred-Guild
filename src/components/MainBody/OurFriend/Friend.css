@@ -1,0 +1,32 @@
+.friends-text {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 6vw;
+    padding: 0px 0.1em;
+}
+
+.title-friend {
+    display: flex;
+    justify-content: center;
+    margin: 3em 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 10px;
+    padding: 2px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.col>img {
+    width: 70%;
+}
