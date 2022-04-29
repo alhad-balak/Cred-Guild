@@ -1,3 +1,5 @@
+Check out the live of site. [Click Here](https://cred-guild.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
