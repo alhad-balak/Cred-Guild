@@ -7,8 +7,9 @@
 .title-friend {
     display: flex;
     justify-content: center;
-    margin: 0.5em 10px;
+    margin: 0.5em -5px;
     align-self: center;
+    padding-bottom: 3vw;
 }
 
 .grid {
@@ -39,6 +40,7 @@
 
     .title-friend {
         margin: 0px 60px;
+        padding-bottom: 1vw;
     }
 
 }

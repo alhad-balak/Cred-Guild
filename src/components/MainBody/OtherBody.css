@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+img{
+    width: 20%;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: auto auto;
+}
