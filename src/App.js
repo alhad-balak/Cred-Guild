@@ -9,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <OtherBody />
-      {/* <Friend /> */}
-      {/* <Connect /> */}
+      <Friend />
+      <Connect />
     </>
   );
 }

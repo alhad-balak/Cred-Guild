@@ -101,7 +101,9 @@
 }
 
 @media only screen and (max-width:600px) {
-
+    #logo{
+        margin: 2rem 0rem;
+    }
     #rights {
         grid-column: 1;
         grid-row: 2;
