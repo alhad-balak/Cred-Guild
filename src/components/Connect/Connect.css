@@ -15,8 +15,7 @@
 #col-1 {
     display: grid;
     grid-template-rows: 15rem 15rem;
-    /* align-self: center; */
-    padding-left: 2rem;
+    padding-left: 5rem;
     grid-row: 1;
     grid-column: 1;
     grid-gap: 1rem;
@@ -36,7 +35,6 @@
     position: relative;
     top: -5rem;
     height: 20px;
-
 }
 
 
@@ -54,7 +52,7 @@
     padding-top: 3rem;
     /* margin-top: 3rem; */
     grid-row-gap: 1.5rem;
-    padding-left: 10rem;
+    padding-left: 15rem;
 }
 
 #col-2>a {
@@ -92,7 +90,12 @@
         font-size: 1rem;
         position: relative;
         top: 0rem;
-
+    }
+    .container{
+        height: 180px;
+    }
+    .connect{
+        height: 12rem;
     }
 
 }
@@ -110,6 +113,7 @@
         grid-row-gap: 0rem;
         padding-bottom: 0px;
         height: 130px;
+        padding-left: 5rem;
     }
     #col-1{
         height: 130px;
