@@ -35,7 +35,7 @@
 
 #earn {
     background: linear-gradient(180deg, transparent 50%, #eeb908 0);
-    width: 67%;
+    width: 47%;
 }
 
 
@@ -68,6 +68,19 @@ img {
     font-size: 19px;
     position: relative;
     top: 50px;
+}
+
+.join-guild-1 {
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 19px;
+
 }
 
 .text-title {
@@ -204,6 +217,7 @@ img {
         /* margin: 30px 55px; */
         justify-content: center;
     }
+
     .item-3-text-grid-content {
         background: #8020f0;
         margin: 3px;
@@ -213,6 +227,7 @@ img {
         padding: 10px;
         border-radius: 12px;
     }
+
     .item-2-pic {
         display: none;
         margin: 0px;
@@ -222,6 +237,7 @@ img {
         display: none;
         margin: 0px;
     }
+
     #earn {
         background: linear-gradient(180deg, transparent 50%, #eeb908 0);
         width: 79%;

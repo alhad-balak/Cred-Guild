@@ -49,7 +49,7 @@ const OtherBody = () => {
 
                     <div className='text-des item-2-des item-3-des'>You can enjoy our inventory of NFTs and other boons with yout RANKER Badge. Exclusive NFTs, Tournaments, coaching sessions and beyond.</div>
 
-                    <a href="/" ><button className='join-guild'>LEARN ABOUT $RANKER</button></a>
+                    <a href="/" ><button className='join-guild-1'>LEARN ABOUT $RANKER</button></a>
                 </div>
                 <div className="image" >
                     <img src={item3} alt="" className="item-2-pic item-3-pic" />
