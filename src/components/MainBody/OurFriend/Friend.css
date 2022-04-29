@@ -7,7 +7,8 @@
 .title-friend {
     display: flex;
     justify-content: center;
-    margin: 3em 0px;
+    margin: 0.5em 10px;
+    align-self: center;
 }
 
 .grid {
@@ -29,4 +30,15 @@
 
 .col>img {
     width: 70%;
+}
+
+@media only screen and (max-width:1200px) {
+    .col {
+        padding: 5px 10px;
+    }
+
+    .title-friend {
+        margin: 0px 60px;
+    }
+
 }
