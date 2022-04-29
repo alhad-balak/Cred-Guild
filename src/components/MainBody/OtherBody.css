@@ -12,7 +12,32 @@
 #item-1 {
     width: 100%;
     margin-bottom: 30px;
+    background-image: url("./item-1-bg.png");
+    object-fit: contain;
+    background-size: 100% calc(100% + 30px) !important;
 }
+
+#item-1-pic {
+    /* background-image: url("./item-1-bg.png");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100% calc(100% + 30px) !important;
+    margin: 0px;
+    padding: 0px; */
+    padding-top: 5rem;
+}
+
+.text-1 {
+    color: white;
+    -webkit-text-stroke-color: white;
+
+}
+
+#earn {
+    background: linear-gradient(180deg, transparent 50%, #eeb908 0);
+    width: 67%;
+}
+
 
 img {
     width: 90%;
@@ -35,7 +60,7 @@ img {
     border: 1px solid black;
     border-radius: 12px;
     cursor: pointer;
-    margin: 10px;
+    margin: 10px 0px;
     background-color: black;
     color: white;
     font-weight: 500;
@@ -48,6 +73,7 @@ img {
     font-size: 85px;
     line-height: 96px;
     width: auto;
+    align-self: center;
 }
 
 .text-des {
@@ -56,6 +82,7 @@ img {
     font-family: Montserrat !important;
     word-spacing: 3px;
     letter-spacing: 1px;
+    align-self: center;
 }
 
 
@@ -82,7 +109,7 @@ img {
 }
 
 .image {
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .item-2-pic {
@@ -121,9 +148,10 @@ img {
     height: 5rem;
     padding: 10px;
     border-radius: 12px;
+    align-self: center;
 }
 
-#text-3 {
+.text-3 {
     align-self: center;
 }
 
@@ -131,19 +159,25 @@ img {
     padding: 0;
     margin: 2rem 4rem;
 }
-#text-6{
+
+#text-6 {
     align-self: center;
 }
+
 @media only screen and (min-width: 700px) {
     .item-22-pic {
         display: none;
     }
-    
+
 }
 
 @media only screen and (max-width: 700px) {
     .grid-item {
         grid-template-columns: 100%;
+    }
+
+    #item-1 {
+        background-size: 100% calc(100% + 100px) !important;
     }
 
     .text-des {
@@ -172,13 +206,26 @@ img {
         /* margin: 30px 55px; */
         justify-content: center;
     }
-
+    .item-3-text-grid-content {
+        background: #8020f0;
+        margin: 3px;
+        margin-left: 20px;
+        width: 8rem;
+        height: 5rem;
+        padding: 10px;
+        border-radius: 12px;
+    }
     .item-2-pic {
         display: none;
         margin: 0px;
     }
-    .item-5-pic{
+
+    .item-5-pic {
         display: none;
         margin: 0px;
+    }
+    #earn {
+        background: linear-gradient(180deg, transparent 50%, #eeb908 0);
+        width: 79%;
     }
 }

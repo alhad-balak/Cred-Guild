@@ -13,13 +13,13 @@ const OtherBody = () => {
     return (
         <div className="main-grid">
             <div className="item-1 grid-item" id="item-1">
-                <div className="text">
-                    <div><p className=" text-title outline-text" >GET SET,</p> <p className="text-title outline-text">PLAY,</p><p className="text-title fill-text">EARN</p></div>
-                    <div className='text-des'>We are a guild of gamers who are passionate about P2E. We aim to empower our guild members to enjoy all the benefits as they explore the vast emergent socialfi ecosystem.</div>
+                <div className="text text-1" style={{alignItems:'center'}}>
+                    <div className="text-3"><p className=" text-title outline-text" style={{ WebkitTextStrokeColor: 'white' }}>GET SET, PLAY,</p><p className="text-title fill-text" id="earn" style={{ color: 'white', fontWeight: '1000', zIndex: '1' }}>EARN</p></div>
+                    <div className='text-des' style={{ fontWeight: '600' }}>We are a guild of gamers who are passionate about P2E. We aim to empower our guild members to enjoy all the benefits as they explore the vast emergent socialfi ecosystem.</div>
                     <a href="/" ><button className='join-guild'>JOIN OUR GUILD NOW</button></a>
                 </div>
                 <div className="image" >
-                    <img id="item-1" src={item1} alt="" />
+                    <img id="item-1-pic" src={item1} alt="" />
                 </div>
             </div>
             <div className="item-2 grid-item">
@@ -27,7 +27,7 @@ const OtherBody = () => {
                     <img src={item2} alt="" className="item-2-pic" />
                 </div>
                 <div className="text">
-                    <div ><p className=" text-title outline-text item-2-title" >YOUR</p> <p className="item-2-title text-title outline-text">ADVENTURE</p><p className="item-2-title text-title fill-text">STARTS NOW</p></div><div className="image" >
+                    <div className="text-3"><p className=" text-title outline-text item-2-title" >YOUR ADVENTURE</p> <p className="item-2-title text-title outline-text"></p><p className="item-2-title text-title fill-text">STARTS NOW</p></div><div className="image" >
                         <img src={item2} alt="" className="item-22-pic" />
                     </div>
 
@@ -43,7 +43,7 @@ const OtherBody = () => {
             </div>
             <div className="item-3 grid-item">
                 <div className="text">
-                    <div ><p className=" text-title outline-text item-2-title" >MINT YOUR</p><p className="item-2-title text-title fill-text">GUILD BADGE</p></div><div className="image" >
+                    <div className="text-3"><p className=" text-title outline-text item-2-title" >MINT YOUR</p><p className="item-2-title text-title fill-text">GUILD BADGE</p></div><div className="image" >
                         <img src={item3} alt="" className="item-22-pic" />
                     </div>
 
@@ -60,7 +60,7 @@ const OtherBody = () => {
                     <img src={item4} alt="" className="item-2-pic" />
                 </div>
                 <div className="text">
-                    <div id="text-3"><p className=" text-title outline-text item-2-title" >GET YOUR</p><p className="item-2-title text-title fill-text">RANKER</p></div><div className="image" >
+                    <div className="text-3"><p className=" text-title outline-text item-2-title" >GET YOUR</p><p className="item-2-title text-title fill-text">RANKER</p></div><div className="image" >
                         <img src={item4} alt="" className="item-22-pic" />
                     </div>
 
@@ -76,7 +76,7 @@ const OtherBody = () => {
             </div>
             <div className="item-5 grid-item">
                 <div className="text">
-                    <div ><p className=" text-title outline-text item-2-title" >A DAO</p><p className="item-2-title text-title fill-text">COMMUNITY</p></div><div className="image" >
+                    <div className="text-3"><p className=" text-title outline-text item-2-title" >A DAO</p><p className="item-2-title text-title fill-text">COMMUNITY</p></div><div className="image" >
                         <img src={item5} alt="" className="item-22-pic" />
                     </div>
 
@@ -93,11 +93,11 @@ const OtherBody = () => {
                     <img src={item6} alt="" className="item-5-pic" />
                 </div>
                 <div className="text">
-                    <div id="text-6"><p className=" text-title outline-text item-2-title" >SOCIAL - FI</p><p className="item-2-title text-title fill-text">STRONG</p></div><div className="image" >
+                    <div className="text-3"><p className=" text-title outline-text item-2-title" >SOCIAL - FI</p><p className="item-2-title text-title fill-text">STRONG</p></div><div className="image" >
                         <img src={item6} alt="" className="item-22-pic" />
                     </div>
 
-                    <div className='text-des item-2-des'>Start your adventure together! Our community is ready to strategize, practice and formulate new ideas!<br/><br/>Compete in the highest level of gaming against other guilds, and fellow rankers. Good luck, have fun!</div>
+                    <div className='text-des item-2-des'>Start your adventure together! Our community is ready to strategize, practice and formulate new ideas!<br /><br />Compete in the highest level of gaming against other guilds, and fellow rankers. Good luck, have fun!</div>
                     <div style={{ color: '#4e27af' }}><strong>As we grow, we will implement more SocialFi features such as in-guild tournaments, and other exciting activities</strong></div>
                 </div>
             </div>

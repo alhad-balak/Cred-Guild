@@ -11,7 +11,7 @@ const Navbar = () => {
                     <i className="fas fa-bars"></i>
                 </label>
                 <img className='logo' src={cred} alt=""/>
-                <ul>
+                <ul style={{fontWeight: '1000'}}>
                     <li><a className="active" href="/">MINT BADGE</a></li>
                     <li><a href="/">TELEGRAM</a></li>
                     <li><a href="/">TWITTER</a></li>
